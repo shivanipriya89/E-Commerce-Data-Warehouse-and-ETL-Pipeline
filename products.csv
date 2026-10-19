@@ -1,0 +1,121 @@
+product_id,product_name,category,unit_price,unit_cost,supplier
+1001,Laptop 1,Electronics,19118.0,12018.41,Supplier_A
+1002,Laptop 2,Electronics,46544.0,28622.34,Supplier_D
+1003,Laptop 3,Electronics,24851.0,18125.83,Supplier_A
+1004,Laptop 4,Electronics,68914.0,56037.88,Supplier_A
+1005,Smartphone 1,Electronics,69251.0,48261.17,Supplier_A
+1006,Smartphone 2,Electronics,51477.0,40450.6,Supplier_A
+1007,Smartphone 3,Electronics,51009.0,41566.25,Supplier_C
+1008,Smartphone 4,Electronics,2428.0,1569.5,Supplier_A
+1009,Headphones 1,Electronics,,27982.93,Supplier_A
+1010,Headphones 2,Electronics,76571.0,57313.43,Supplier_C
+1011,Headphones 3,Electronics,17786.0,9995.21,Supplier_C
+1012,Headphones 4,Electronics,23249.0,17999.46,Supplier_D
+1013,Smart Watch 1,Electronics,63022.0,45411.68,Supplier_B
+1014,Smart Watch 2,Electronics,8570.0,6370.36,Supplier_D
+1015,Smart Watch 3,Electronics,5147.0,3238.64,Supplier_A
+1016,Smart Watch 4,Electronics,26444.0,20868.64,Supplier_C
+1017,Keyboard 1,Electronics,40942.0,28215.33,Supplier_D
+1018,Keyboard 2,Electronics,33502.0,18757.35,Supplier_B
+1019,Keyboard 3,Electronics,37801.0,24433.92,Supplier_A
+1020,Keyboard 4,Electronics,43806.0,27324.8,Supplier_C
+1021,Monitor 1,Electronics,57572.0,45491.17,Supplier_D
+1022,Monitor 2,Electronics,50978.0,32704.42,Supplier_B
+1023,Monitor 3,Electronics,65338.0,48144.86,Supplier_C
+1024,Monitor 4,Electronics,68362.0,42522.16,Supplier_A
+1025,Mixer 1,Home,7255.0,4144.86,Supplier_B
+1026,Mixer 2,Home,9237.0,5813.0,Supplier_A
+1027,Mixer 3,Home,1611.0,1028.69,Supplier_C
+1028,Mixer 4,Home,5321.0,3567.18,Supplier_D
+1029,Vacuum Cleaner 1,Home,3030.0,2230.8,Supplier_C
+1030,Vacuum Cleaner 2,Home,7625.0,4280.95,Supplier_C
+1031,Vacuum Cleaner 3,Home,10373.0,8500.68,Supplier_C
+1032,Vacuum Cleaner 4,Home,10777.0,8779.02,Supplier_A
+1033,Air Fryer 1,Home,1529.0,1118.03,Supplier_D
+1034,Air Fryer 2,Home,6252.0,4304.71,Supplier_B
+1035,Air Fryer 3,Home,810.0,476.73,Supplier_D
+1036,Air Fryer 4,Home,870.0,508.15,Supplier_B
+1037,Bedsheet 1,Home,10870.0,7053.64,Supplier_D
+1038,Bedsheet 2,Home,9593.0,5360.03,Supplier_B
+1039,Bedsheet 3,Home,11425.0,7671.65,Supplier_C
+1040,Bedsheet 4,Home,6395.0,4283.78,Supplier_A
+1041,Lamp 1,Home,9703.0,5697.39,Supplier_C
+1042,Lamp 2,Home,6821.0,4330.54,Supplier_C
+1043,Lamp 3,Home,4389.0,3552.2,Supplier_A
+1044,Lamp 4,Home,3348.0,2292.52,Supplier_D
+1045,Storage Box 1,Home,9502.0,5528.22,Supplier_C
+1046,Storage Box 2,Home,11834.0,7934.62,Supplier_C
+1047,Storage Box 3,Home,11670.0,9306.23,Supplier_D
+1048,Storage Box 4,Home,3579.0,2086.96,Supplier_A
+1049,T-Shirt 1,Fashion,7706.0,4597.53,Supplier_D
+1050,T-Shirt 2,Fashion,1738.0,1336.24,Supplier_C
+1051,T-Shirt 3,Fashion,11241.0,7237.01,Supplier_A
+1052,T-Shirt 4,Fashion,9311.0,6484.05,Supplier_C
+1053,Jeans 1,Fashion,2880.0,2137.5,Supplier_B
+1054,Jeans 2,Fashion,6222.0,4276.78,Supplier_A
+1055,Jeans 3,Fashion,3592.0,2743.78,Supplier_B
+1056,Jeans 4,Fashion,8394.0,4676.27,Supplier_C
+1057,Sneakers 1,Fashion,7957.0,6102.93,Supplier_B
+1058,Sneakers 2,Fashion,10326.0,8144.6,Supplier_A
+1059,Sneakers 3,Fashion,5367.0,3528.82,Supplier_D
+1060,Sneakers 4,Fashion,8912.0,5890.07,Supplier_D
+1061,Jacket 1,Fashion,9719.0,5538.98,Supplier_C
+1062,Jacket 2,Fashion,10824.0,6169.95,Supplier_D
+1063,Jacket 3,Fashion,11442.0,7891.4,Supplier_B
+1064,Jacket 4,Fashion,9332.0,6744.65,Supplier_B
+1065,Backpack 1,Fashion,2414.0,1609.67,Supplier_A
+1066,Backpack 2,Fashion,2334.0,1610.2,Supplier_C
+1067,Backpack 3,Fashion,2997.0,1779.41,Supplier_B
+1068,Backpack 4,Fashion,5969.0,4809.94,Supplier_C
+1069,Watch 1,Fashion,1592.0,983.32,Supplier_C
+1070,Watch 2,Fashion,2350.0,1689.08,Supplier_A
+1071,Watch 3,Fashion,8534.0,6170.65,Supplier_B
+1072,Watch 4,Fashion,3104.0,2259.27,Supplier_C
+1073,Face Wash 1,Beauty,9534.0,5349.74,Supplier_A
+1074,Face Wash 2,Beauty,1630.0,916.51,Supplier_C
+1075,Face Wash 3,Beauty,10968.0,6656.68,Supplier_D
+1076,Face Wash 4,Beauty,10427.0,7533.8,Supplier_D
+1077,Shampoo 1,Beauty,10575.0,7374.01,Supplier_C
+1078,Shampoo 2,Beauty,8212.0,5059.55,Supplier_D
+1079,Shampoo 3,Beauty,5173.0,3478.62,Supplier_A
+1080,Shampoo 4,Beauty,2889.0,1931.86,Supplier_D
+1081,Moisturizer 1,Beauty,7909.0,4785.63,Supplier_B
+1082,Moisturizer 2,Beauty,5421.0,4242.48,Supplier_C
+1083,Moisturizer 3,Beauty,5958.0,4845.95,Supplier_B
+1084,Moisturizer 4,Beauty,6370.0,4389.21,Supplier_A
+1085,Perfume 1,Beauty,5528.0,3401.21,Supplier_A
+1086,Perfume 2,Beauty,4682.0,3143.45,Supplier_B
+1087,Perfume 3,Beauty,1886.0,1063.07,Supplier_D
+1088,Perfume 4,Beauty,10382.0,6882.19,Supplier_B
+1089,Sunscreen 1,Beauty,5664.0,4543.17,Supplier_C
+1090,Sunscreen 2,Beauty,3410.0,2578.11,Supplier_D
+1091,Sunscreen 3,Beauty,8733.0,5903.86,Supplier_C
+1092,Sunscreen 4,Beauty,8448.0,4699.26,Supplier_D
+1093,Hair Dryer 1,Beauty,8581.0,5778.89,Supplier_B
+1094,Hair Dryer 2,Beauty,3824.0,2705.49,Supplier_A
+1095,Hair Dryer 3,Beauty,1128.0,706.09,Supplier_D
+1096,Hair Dryer 4,Beauty,4981.0,3461.33,Supplier_A
+1097,Cricket Bat 1,Sports,7360.0,4314.16,Supplier_C
+1098,Cricket Bat 2,Sports,6292.0,4758.27,Supplier_C
+1099,Cricket Bat 3,Sports,1041.0,685.14,Supplier_B
+1100,Cricket Bat 4,Sports,6239.0,4363.37,Supplier_A
+1101,Football 1,Sports,6629.0,4548.48,Supplier_C
+1102,Football 2,Sports,10511.0,7712.0,Supplier_A
+1103,Football 3,Sports,2408.0,1958.36,Supplier_D
+1104,Football 4,Sports,6414.0,4904.29,Supplier_C
+1105,Yoga Mat 1,Sports,9439.0,7584.39,Supplier_B
+1106,Yoga Mat 2,Sports,3561.0,2537.8,Supplier_D
+1107,Yoga Mat 3,Sports,8493.0,4763.46,Supplier_A
+1108,Yoga Mat 4,Sports,2545.0,1890.09,Supplier_D
+1109,Running Shoes 1,Sports,8808.0,5931.19,Supplier_B
+1110,Running Shoes 2,Sports,5673.0,4546.74,Supplier_C
+1111,Running Shoes 3,Sports,2962.0,1943.36,Supplier_C
+1112,Running Shoes 4,Sports,10027.0,6425.51,Supplier_D
+1113,Dumbbells 1,Sports,11911.0,8361.4,Supplier_D
+1114,Dumbbells 2,Sports,572.0,371.49,Supplier_A
+1115,Dumbbells 3,Sports,7124.0,5040.94,Supplier_A
+1116,Dumbbells 4,Sports,10079.0,6834.97,Supplier_B
+1117,Badminton Racket 1,Sports,1141.0,807.32,Supplier_B
+1118,Badminton Racket 2,Sports,8889.0,6398.63,Supplier_D
+1119,Badminton Racket 3,Sports,2721.0,2100.2,Supplier_B
+1120,Badminton Racket 4,Sports,817.0,575.65,Supplier_A

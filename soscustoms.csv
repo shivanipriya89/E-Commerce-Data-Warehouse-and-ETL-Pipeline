@@ -1,0 +1,7 @@
+Field,Type,Null,Key,Default,Extra
+pipeline_run_id,bigint,YES,,NULL,
+run_start_time,time,YES,,NULL,
+run_end_time,time,YES,,NULL,
+source_row_count,bigint,YES,,NULL,
+target_row_count,bigint,YES,,NULL,
+pipeline_status,varchar(150),YES,,NULL,

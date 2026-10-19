@@ -1,0 +1,101 @@
+# E-Commerce Data Warehouse & ETL Pipeline
+
+## Entry-Level Data Engineer Project — 28 Tasks
+
+### A. Source Data Understanding
+
+1. Inspect all 5 CSV files and understand the purpose of each dataset.
+
+2. Identify the primary keys and foreign-key relationships between the datasets.
+
+3. Determine the grain of each dataset: customers, products, orders, order_items, and payments.
+
+4. Identify at least 5 data-quality issues present in the source datasets.
+
+### B. Python & Data Quality
+
+5. Read all CSV files using Python and display the row count, column names, and data types for each dataset.
+
+6. Find duplicate customer records and identify duplicate customer_id values.
+
+7. Find NULL values in every source table and report the NULL count for each column.
+
+8. Validate the foreign-key relationships between customers, orders, order_items, products, and payments.
+
+9. Standardize inconsistent categorical values such as "completed" to "Completed" and "upi" to "UPI".
+
+10. Convert date/time columns to appropriate data types and decide how missing values should be handled.
+
+### C. PySpark Transformation
+
+11. Create a SparkSession and load all CSV files into Spark DataFrames.
+
+12. Apply explicit schemas to the important columns instead of relying entirely on schema inference.
+
+13. Remove or handle duplicate customer records using a defined business rule.
+
+14. Cast quantity, unit_price, unit_cost, and discount_pct to appropriate numeric data types.
+
+15. Create a line_total column using:
+
+line_total = quantity × unit_price × (1 - discount_pct / 100)
+
+16. Join orders, order_items, products, and customers to create a curated order-item dataset.
+
+17. Calculate profit and profit_margin, then write the curated dataset to an output folder in CSV or Parquet format.
+
+### D. Data Warehouse Modeling
+
+18. Design a star schema for the E-Commerce Data Warehouse.
+
+19. Clearly define the grain of the main fact table.
+
+20. Choose appropriate business keys and surrogate keys for the dimension tables.
+
+21. Create the following warehouse tables:
+
+* dim_customer
+* dim_product
+* dim_date
+* fact_order / fact_sales
+
+### E. MySQL Warehouse Loading
+
+22. Create the target Data Warehouse database and tables in MySQL.
+
+23. Load dimension data first and then load the fact data. Perform basic referential-integrity checks.
+
+24. Compare source and target record counts and create an ETL audit table containing:
+
+* pipeline_run_id
+* run_start_time
+* run_end_time
+* source_row_count
+* target_row_count
+* pipeline_status
+
+### F. SQL Analytics
+
+25. Find the total revenue and total profit by month.
+
+26. Find the top 10 products by revenue.
+
+27. Calculate the percentage contribution of each product category to total revenue.
+
+28. Calculate month-over-month revenue change using a SQL window function.
+
+## Final Project Objective
+
+Build the complete end-to-end pipeline:
+
+CSV Source Data
+→ Python/PySpark Ingestion
+→ Data Quality Checks
+→ PySpark Transformations
+→ Curated Data
+→ MySQL Data Warehouse
+→ SQL Analytics
+
+## Recommended Resume Extension
+
+After completing the above 28 tasks, optionally add Apache Airflow to schedule and monitor the batch ETL pipeline.
